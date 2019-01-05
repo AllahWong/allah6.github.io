@@ -1,0 +1,34 @@
+May 23, 2015 at 1:11 AM
+发件人 Apple
+ngRepeat: rejectionReason in message.qcRejectionReasons
+11.7 - Apps that use IAP to purchase items must assign the correct Purchasability type
+end ngRepeat: rejectionReason in message.qcRejectionReasons
+11.7 Details
+
+We noticed that your In-App Purchase product was set to an incorrect Purchasability Type.
+
+VIP is set to Consumable.
+
+Next Steps
+
+Since the service offered by your application requires the user to make an advance payment to access the content or receive the service, please use the Non-Renewable Subscription In-App Purchase type. Non-Renewable Subscription content must be made available to all iOS devices owned by a single user, as indicated in Guideline 11.6 of the App Store Review Guidelines.
+
+NOTE: The Purchasability Type cannot be changed once an In-App Purchase product has been created. Therefore, you will need to create a new In-App Purchase product with the correct Purchasability Type.
+
+To create new In-App Purchase/s:
+
+- Log in to iTunes Connect
+- Click on “My Apps”
+- Select your app
+- Select In-App Purchases
+- Click “Create New”
+- Once you’ve completed all changes, click the “Submit for Review” button at the top of the App Details page.
+
+Resources
+
+More information on In-App Purchase Purchasability Types is available in the In-App Purchase Configuration Guide for iTunes Connect.
+
+
+***VIP会员 **元/*年
+com.***.**
+Tier 15
